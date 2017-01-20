@@ -1,0 +1,9 @@
+questions.txt
+
+Computer Science 50
+Problem Set 3
+
+0. 3x3, 5x5, 6x6, 7x7, 8x8, 9x9
+1. bool
+2. greet(void)
+3. init(void); draw(void); move(int tile); won(void);

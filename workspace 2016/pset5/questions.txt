@@ -1,0 +1,27 @@
+0.  What is pneumonoultramicroscopicsilicovolcanoconiosis?
+    A lung disease caused by the inhalation of very fine silica dust, causing 
+    inflammation in the lungs.
+
+1.  According to its man page, what does getrusage do?
+    It gets resource usage.
+
+2.  Per that same man page, how many members are in a variable of type struct rusage?
+    The struct rusage has 16 variable.
+    
+3.  Why do you think we pass before and after by reference (instead of by value) to calculate, even though we’re not changing their contents?
+    Before and after are passed by reference to calculate to save time and memory resources as the 2 structs would not have to be copied.
+    
+4.  Explain as precisely as possible, in a paragraph or more, how main goes about reading words from a file. In other words, convince us that you indeed understand how that function’s for loop works.
+    
+
+5.  TODO
+
+6.  TODO
+
+7.  TODO
+
+8.  TODO
+
+9.  TODO
+
+10. TODO
