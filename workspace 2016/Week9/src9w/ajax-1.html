@@ -1,0 +1,43 @@
+<!--
+
+ajax-1.html
+
+Gets stock quote from quote.php via Ajax with jQuery, displaying price with alert.
+
+David J. Malan
+malan@harvard.edu
+
+-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+
+            $(function() {
+
+                $('#quote').submit(function() {
+
+                    var url = 'quote.php?symbol=' + $('#symbol').val();
+                    $.getJSON(url, function(data) {
+                        alert(data.price);
+                    });
+                    return false;
+
+                });
+
+            });
+
+        </script>
+        <title>ajax-1</title>
+    </head>
+    <body>
+        <form id="quote">
+            Symbol: <input autocomplete="off" autofocus id="symbol" type="text"/>
+            <br/><br/>
+            <input type="submit" value="Get Quote"/>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html>
+    <head>
+        
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+                        // constructs the suggestion engine
+            var states = new Bloodhound({
+            datumTokenizer: Bloodhound.tokenizers.whitespace,
+            queryTokenizer: Bloodhound.tokenizers.whitespace,
+            // `states` is an array of state names defined in "The Basics"
+            local: states
+            });
+
+            $('#bloodhound .typeahead').typeahead({
+            hint: true,
+            highlight: true,
+            minLength: 1
+            },
+            {
+            name: 'states',
+            source: states
+            });
+        </script>
+        <title>Trial two</title>
+    </head>
+    <body>
+        <div id="bloodhound">
+  <input class="typeahead" type="text" placeholder="States of USA">
+</div>
+    </body>
+</html>

@@ -1,0 +1,275 @@
+/* 
+------------------------------------
+cas core styles
+July 2010
+patrick lynch
+------------------------------------ */
+
+/* COLOR REFERENCES
+------------------------------------------------------------------------
+
+
+
+
+
+/* CORE GLOBAL STYLES
+======================================================================= */
+
+body {
+		background-color: #fff;
+		color: #666;
+		font-family: Georgia, "Times New Roman", Times, serif;
+		margin: 0px;
+		padding: 0px;
+		}
+
+
+a:link {
+		text-decoration: none;
+		color: #2758b3;
+		}
+			
+a:visited {
+		text-decoration: none;
+		color: #7f510e;
+		}
+			
+a:active {
+		text-decoration: none;
+		/*color: #000099;*/
+		}
+			
+a:hover {
+		color: #ef2d00;
+		text-decoration: underline;
+		}
+		
+.hide	{
+		display: none;
+		}
+		
+.hideInMobile	{
+		display: none;
+		}
+		
+		
+
+
+/* LAYOUT IDs
+======================================================================= */
+
+/* =Page container and Headers
+------------------------------------------------------- */
+	
+#pagebox {
+	border: 0px;
+	background: #fff;
+	margin: 0px;
+	width: auto;
+	height: auto;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	}
+	
+#headerBox {
+	border: 0px;
+	background: #0F4D92;
+		overflow: hidden;
+		width: auto;
+		height: auto;
+	}
+	
+img#titleGraphic {
+	padding: 12px;
+	width: 280px;
+	height: auto;
+	image-rendering: optimizeQuality; 
+	-ms-interpolation-mode: bicubic;
+}
+	
+#content-left {
+	background: #fff;
+	border: 0px;
+	margin: 0px;
+	padding: 15px;
+	width: auto;
+	height: auto;
+		float: none;
+	}
+	
+#content-right {
+	background: #fff;
+	border: 0px;
+	/*margin: 0px;
+	padding: 15px;*/
+	width: auto;
+	height: auto;
+		float: none;
+		margin-left: 85px;
+	}
+	
+#geotrust-badge {
+	display: block;
+	margin-top: 0px;
+	}
+	
+#geotrust-badge img {
+	width: 40%;
+	height: auto;
+}
+
+#form-layout {
+	width: auto;
+	}
+	
+
+	
+/* FORM ELEMENTS
+======================================================================= */
+#login_form input {
+	background: #f8f8f8;
+	border: 1px solid  #aaa;
+	color: #555;
+	font-family: Verdana, Arial, Helvetica, sans;
+	/*font-size: 24px;*/
+	font-weight: normal;
+	margin: 0px 0px 0px 0px;
+	/*padding: 10px 0px 10px 4px;*/
+		font-size: 16px;
+		padding: 5px;
+	}
+	
+#login_form input.inputButton {
+	background: #F5F091; 
+	border: 1px solid  #aaa;
+	color: #555;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	/*font-size: 30px;*/
+	font-weight: normal;
+	margin: 10px 0px 10px 0px;
+	/*padding: 10px 40px 10px 40px;*/
+		font-size: 18px;
+	}
+
+#login_form input.formInput {
+width: 170px;
+float: none;
+}
+
+.caps-status, .caps-on { display: none; }
+
+
+/* TYPOGRAPHY
+======================================================================= */
+h1.mobileTitle {
+	display: none;
+	}
+	
+#content-left h1 {
+	color: #883F0A;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	/*font-size: 24px;*/
+	font-weight: bold;
+	margin: 0px 0px 5px 0px;
+		font-size: 19px;
+	}
+	
+#content-left h2 {
+	display: none;
+	}
+
+/*
+#content-left p.formLabel {
+	color: #5F5F5F;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 6px 0px 0px 0px;
+	text-align: right;
+	}
+*/
+
+#content-left p.sans {
+	display: none;
+	}
+	
+#content-left p.sansURL {
+	display: none;
+	}
+
+
+#content-left p.mobile-tight {
+	margin: 0;
+}
+
+
+#content ul.plain, ul.plain a { 
+	color: #1A3E6F; 
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	/*font-size: 24px;*/
+	line-height: 1.3em;
+	list-style: none;
+	margin: .4em 0em .2em 0em;
+	padding: 0em 0em 0em 0em;
+	text-indent: 0em;
+		font-size: 14px;
+	}
+	
+#content ul.plain li, ul.plain li a {
+	padding-bottom: 0.8em;
+	}
+	
+#content ul.plain li.disabled {
+	color: #bbb;
+	}
+	
+	
+#content ul.plain-serif, ul.plain-serif a { 
+	display: none;
+	}
+	
+#content ul.plain-serif li, ul.plain-serif li a {
+	padding-bottom: 0.8em;
+	}
+	
+	
+	
+#content ol { 
+	color: #5F5F5F;
+	font-family: Verdana, Arial, Helvetica, sans;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 1.8em;
+	margin: 0px 0px 0px 20px;
+	padding: 0px 0px 0px 0px;
+	text-indent: 0em;
+	}
+	
+#content ol li, ol li a {
+	padding-bottom: 0.8em;
+	}
+
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

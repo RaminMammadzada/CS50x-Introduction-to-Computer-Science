@@ -8,6 +8,7 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
+/workspace 2016/.c9/*
 *.mp4
 *.zip
 *.rar
