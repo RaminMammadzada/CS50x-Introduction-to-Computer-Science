@@ -1,8 +1,8 @@
 {
-    "database": {
-        "host": "localhost",
-        "name": "pset7",
-        "username": "jharvard",
-        "password": "esrSoVvoX6kjwU6F"
-    }
+  "database": {
+    "host": "localhost",
+    "name": "id387693_pset7",
+    "username": "id387693_jharvard",
+    "password": "esrSoVvoX6kjwU6F"
+  }
 }

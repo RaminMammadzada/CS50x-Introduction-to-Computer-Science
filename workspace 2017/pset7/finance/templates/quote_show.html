@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote_show
+{% endblock %}
+
+
+{% block body %}
+
+
+{% endblock %}
+
+
+{% block main %}
+    
+  <h1>..::Quote Result::..</h1>
+    The price of the one share of 
+    {{ quote_result["name"] }} is 
+    <strong>{{ quote_result["price"] }}</strong>.
+    <br/>
+    The symbol you looked for is: <strong>{{ quote_result["symbol"]}}</strong>
+    <br/>
+{% endblock %}
+
+
+
